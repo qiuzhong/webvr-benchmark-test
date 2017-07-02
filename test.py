@@ -19,6 +19,7 @@ while True:
     fps = driver.find_element_by_id('fps').get_attribute('innerText')
     print fps
     time.sleep(1)
+    
 
 #time.sleep(5) # Let the user actually see something!
 #driver.quit()
